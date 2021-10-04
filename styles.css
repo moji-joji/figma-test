@@ -32,20 +32,31 @@ header .logo {
 
 /* form styling */
 
+.login-form{
+  width: 100%;
+
+}
+
 form .email-field{
   margin: 10px 0;
   text-indent: 20px;
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
-  padding: 10px 0;
+  padding: 15px 0;
+  width: 30%;
+margin-bottom: 0;
 
 }
 
 form  .password-field {
+
   text-indent: 20px;
   border-bottom-right-radius: 6px;
-  padding: 10px 0;
+  padding: 15px 0;
   border-bottom-left-radius: 6px;
+  width: 30%;
+  
+  
 
 
   
@@ -63,7 +74,12 @@ button{
 	color: #fff;
 	border: none;
 	margin-top: 15px;
+  width: 30%;
+  margin-bottom: 10px;
 
+}
+button:hover{
+  background-color:#0B6AB4;
 }
 
 footer p {
@@ -80,6 +96,7 @@ footer a {
 footer a:hover {
   text-decoration: none;
   font-weight: 600;
-  color: darkblue;
+  color: #0B6AB4;
+
   cursor: pointer;
 }
